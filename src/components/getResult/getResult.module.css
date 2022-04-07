@@ -1,0 +1,31 @@
+.gridContainer{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    height: 92vh;
+}
+.text{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    font-size: 24px;
+    justify-content: flex-end;
+    padding: 0 20vw 13vw 25vw;
+    background-color: white;
+    border: 1px solid #ccc
+}
+
+.text h3{
+    color: rgb(0, 162, 255);
+    margin: 0;
+}
+
+
+.button{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: white;
+    padding-right: 10vw;
+    padding-top: 50px;
+}

@@ -1,0 +1,42 @@
+.form{
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vh 0 10vh;
+    text-decoration: none;
+}
+
+.questions{
+    font-size: 24px;
+    
+}
+
+.answers{
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+.options{
+    background-color: black;
+    color: white;
+    margin: 1px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.options:hover{
+    margin: 20px;
+}
+
+
+.next{
+    height: 23vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: white;
+    padding-right: 10vw;
+    padding-top: 50px;
+}
