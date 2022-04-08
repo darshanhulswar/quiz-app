@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 export default function Questions() {
   const questions = useSelector((state) => state.quiz.questions);
-  console.log(questions);
   return (
     <>
       {questions.map((question) => (
